@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #4f5257;
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #4f5257;
+    text-align: center;
+}
+@font-face {
+    font-family: blackNight;
+    src: url("../media/fonts/BlackNight.ttf");
+}
+#welcome-text{
+    padding-top: 2%;
+}
+
+h1{
+    font-family: blackNight;
+    font-size: 60px;
+    background-color: rgb(188, 152, 84);
+    display: inline-block;
+    padding: 2%;
+    border: #9d6e1b 2px dotted;
+}
+
+#change-bg-color{
+    color: brown;
+    margin-top: 3%;
+}
+
+
+.doorway-cover{
+   img{
+    width:400px;
+   }
+    padding-left: 22%;
+    
+}
+.hallway-doors-1{
+    display: flex;
+    width: 75vw;
+    height: 10vh;
+    padding-left: 5%;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap-flex;
+
+}
+
+.hallway-doors-2{
+    display: flex;
+    width: 75vw;
+    height: 10vh;
+    padding-top: 30%;
+    padding-left: 5%;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+}
+.hallway-1{
+    display: flex;
+    width: 75vw;
+    height: 10vh;
+    padding-left: 23.4%;
+ 
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap-flex;
+}
+
+
+.hallway-2{
+    display: flex;
+    width: 75vw;
+    height: 10vh;
+    padding-left:8.7%;
+    gap: 10px;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap-flex;
+}
+
+.doorway{
+    width: 100px;
+    height: 200px;
+    padding-top: 35px;
+    margin-left: 57px;
+
+    img{
+        width:200px;
+        height: 278px;
+    }
+}
+
+#real-2{
+    position: absolute;
+    right: 473px;
+}
